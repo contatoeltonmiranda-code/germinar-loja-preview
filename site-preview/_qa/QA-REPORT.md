@@ -1,0 +1,105 @@
+# Relatório QA — Site Germinar
+
+Data: 2026-09-16
+Resultado geral: APROVADO
+
+- Páginas: 41
+- Viewports: 1440, 1024, 820, 390
+- Renderizações: 164
+- Problemas estáticos: 0
+- Falhas de navegador: 0
+
+## Evidências
+
+- `blog-educacao-financeira-em-sala-de-aula-index-1440.png`
+- `blog-educacao-financeira-em-sala-de-aula-index-1024.png`
+- `blog-educacao-financeira-em-sala-de-aula-index-820.png`
+- `blog-educacao-financeira-em-sala-de-aula-index-390.png`
+- `blog-index-1440.png`
+- `blog-index-1024.png`
+- `blog-index-820.png`
+- `blog-index-390.png`
+- `blog-literatura-infantil-como-ferramenta-index-1440.png`
+- `blog-literatura-infantil-como-ferramenta-index-1024.png`
+- `blog-literatura-infantil-como-ferramenta-index-820.png`
+- `blog-literatura-infantil-como-ferramenta-index-390.png`
+- `categoria-apostilas-index-1440.png`
+- `categoria-apostilas-index-1024.png`
+- `categoria-apostilas-index-820.png`
+- `categoria-apostilas-index-390.png`
+- `categoria-combos-index-1440.png`
+- `categoria-combos-index-1024.png`
+- `categoria-combos-index-820.png`
+- `categoria-combos-index-390.png`
+- `contato-index-1440.png`
+- `contato-index-1024.png`
+- `contato-index-820.png`
+- `contato-index-390.png`
+- `cursos-index-1440.png`
+- `cursos-index-1024.png`
+- `cursos-index-820.png`
+- `cursos-index-390.png`
+- `faq-index-1440.png`
+- `faq-index-1024.png`
+- `faq-index-820.png`
+- `faq-index-390.png`
+- `index-1440.png`
+- `index-1024.png`
+- `index-820.png`
+- `index-390.png`
+- `loja-index-1440.png`
+- `loja-index-1024.png`
+- `loja-index-820.png`
+- `loja-index-390.png`
+- `nossos-produtos-index-1440.png`
+- `nossos-produtos-index-1024.png`
+- `nossos-produtos-index-820.png`
+- `nossos-produtos-index-390.png`
+- `palestras-index-1440.png`
+- `palestras-index-1024.png`
+- `palestras-index-820.png`
+- `palestras-index-390.png`
+- `politica-de-privacidade-index-1440.png`
+- `politica-de-privacidade-index-1024.png`
+- `politica-de-privacidade-index-820.png`
+- `politica-de-privacidade-index-390.png`
+- `por-idade-2-a-6-anos-index-1440.png`
+- `por-idade-2-a-6-anos-index-1024.png`
+- `por-idade-2-a-6-anos-index-820.png`
+- `por-idade-2-a-6-anos-index-390.png`
+- `por-idade-a-partir-de-7-index-1440.png`
+- `por-idade-a-partir-de-7-index-1024.png`
+- `por-idade-a-partir-de-7-index-820.png`
+- `por-idade-a-partir-de-7-index-390.png`
+- `por-idade-index-1440.png`
+- `por-idade-index-1024.png`
+- `por-idade-index-820.png`
+- `por-idade-index-390.png`
+- `produtos-moedas-que-contam-historias-index-1440.png`
+- `produtos-moedas-que-contam-historias-index-1024.png`
+- `produtos-moedas-que-contam-historias-index-820.png`
+- `produtos-moedas-que-contam-historias-index-390.png`
+- `quem-somos-index-1440.png`
+- `quem-somos-index-1024.png`
+- `quem-somos-index-820.png`
+- `quem-somos-index-390.png`
+- `solucoes-empresas-index-1440.png`
+- `solucoes-empresas-index-1024.png`
+- `solucoes-empresas-index-820.png`
+- `solucoes-empresas-index-390.png`
+- `solucoes-escolas-index-1440.png`
+- `solucoes-escolas-index-1024.png`
+- `solucoes-escolas-index-820.png`
+- `solucoes-escolas-index-390.png`
+- `solucoes-index-1440.png`
+- `solucoes-index-1024.png`
+- `solucoes-index-820.png`
+- `solucoes-index-390.png`
+- `solucoes-pais-index-1440.png`
+- `solucoes-pais-index-1024.png`
+- `solucoes-pais-index-820.png`
+- `solucoes-pais-index-390.png`
+- `solucoes-professores-index-1440.png`
+- `solucoes-professores-index-1024.png`
+- `solucoes-professores-index-820.png`
+- `solucoes-professores-index-390.png`
