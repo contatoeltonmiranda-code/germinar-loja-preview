@@ -22,3 +22,10 @@
 .publico-node img[src*="olivia-filha-original"]{object-position:center top}
 @media(max-width:820px){.hero.hero-background{background-image:linear-gradient(90deg,rgba(250,253,255,.97),rgba(250,253,255,.86)),var(--hero-art);background-size:cover;background-position:center center}}
 @media(max-width:820px){.hero-r32-solucoes>.container{transform:none}.hero-r27-quem-somos .lead{max-width:100%}.hero-r27-solucoes-escolas>.hero-art-img{clip-path:none;opacity:.2}.hero.hero-background.hero-r27-solucoes-escolas{background:#fff4e9}.hero-r25-home>.hero-art-img,.hero-r26-home>.hero-art-img{inset:0!important;width:100%!important;clip-path:none;opacity:.18}.hero.hero-background.hero-r25-home::after,.hero.hero-background.hero-r26-home::after{display:none}}
+/* R48: rotas novas usam arte existente equivalente (ou slot r48/heroes) com o mesmo enquadramento das internas. */
+[class*="hero-r48-"]>.hero-art-img{object-position:64% center}
+/* R48 (item 2b): Quem somos reenquadrado para a professora aparecer inteira. A arte encosta à direita/base,
+   a escala acompanha a largura útil ao lado do texto e a borda esquerda (planta) some num fade para não ficar sob o texto. */
+.hero.hero-background.hero-r27-quem-somos{background:#eaf6f9}
+.hero-r27-quem-somos>.hero-art-img{inset:auto 0 0 auto;width:auto;max-width:none;height:clamp(300px,calc((100vw - 640px) / 1.6),100%);object-fit:cover;object-position:100% 100%;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 72px),linear-gradient(90deg,transparent 54.6%,#000 56.6%);mask-image:linear-gradient(180deg,transparent 0,#000 72px),linear-gradient(90deg,transparent 54.6%,#000 56.6%);-webkit-mask-composite:source-in;mask-composite:intersect}
+@media(max-width:820px){.hero-r27-quem-somos>.hero-art-img{height:calc(28vw + 210px)}}

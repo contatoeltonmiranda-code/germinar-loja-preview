@@ -73,3 +73,39 @@ body[data-page^="produtos/"] .hero,body[data-page^="categoria/"] .hero,body[data
 h1,h2,.lead,.section-head p{text-wrap:balance}.section-head{max-width:760px}.section-head>p{max-width:700px}
 body[data-page="cursos"] .section-head>p{margin-left:auto;margin-right:auto;text-align:center}
 @media(max-width:560px){.store-grid h3{font-size:14px}.store-grid .price{font-size:18px}.store-grid .btn{font-size:12px}.store-grid .tag{font-size:10px}}
+/* R48: catálogo novo. Capa real em contain, composição de capas dos combos, placeholder neutro e economia visível. */
+.product-card .product-img.is-cover{display:grid;place-items:center;padding:16px 22px}
+.product-card .product-img.is-cover img{width:auto;height:100%;max-width:100%;object-fit:contain;border-radius:6px;box-shadow:0 12px 24px rgba(29,61,71,.18)}
+.cover-placeholder{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:linear-gradient(160deg,var(--creme),var(--azul-fundo));color:var(--azul);text-align:center}
+.cover-placeholder-icon{width:64px;height:64px;border-radius:50%;background:#fff;border:2px solid rgba(244,159,9,.38);display:grid;place-items:center}
+.cover-placeholder-icon svg{width:30px;height:30px}
+.cover-placeholder strong{font-size:13px;font-weight:800;color:var(--petroleo);letter-spacing:.02em}
+.cover-placeholder small{font-size:12px;color:var(--suave)}
+.cover-placeholder.mini{gap:0}.cover-placeholder.mini .cover-placeholder-icon{width:44%;height:auto;aspect-ratio:1}
+.cover-placeholder.mini .cover-placeholder-icon svg{width:55%;height:55%}
+.product-img.is-stack,.product-img.is-placeholder{display:block}
+.cover-stack{position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(160deg,var(--creme),var(--azul-fundo));padding:0 10%}
+.cover-stack-item{position:relative;flex:0 0 auto;width:42%;aspect-ratio:.72;margin-left:-14%;border-radius:6px;overflow:hidden;background:#fff;border:3px solid #fff;box-shadow:0 12px 22px rgba(29,61,71,.2)}
+.cover-stack-item:first-child{margin-left:0}
+.cover-stack-item img{width:100%;height:100%;object-fit:cover}
+.cover-stack.n2 .cover-stack-item{width:46%;margin-left:-8%}.cover-stack.n2 .cover-stack-item:first-child{margin-left:0}
+.cover-stack.n2 .cover-stack-item:nth-child(1){transform:rotate(-5deg)}.cover-stack.n2 .cover-stack-item:nth-child(2){transform:rotate(4deg) translateY(4%)}
+.cover-stack.n4 .cover-stack-item,.cover-stack.n5 .cover-stack-item{width:36%;margin-left:-20%}
+.cover-stack.n4 .cover-stack-item:first-child,.cover-stack.n5 .cover-stack-item:first-child{margin-left:0}
+.cover-stack .cover-stack-item:nth-child(odd){transform:translateY(-4%) rotate(-3deg)}.cover-stack .cover-stack-item:nth-child(even){transform:translateY(5%) rotate(3deg)}
+.save-badge{display:inline-flex;align-items:center;margin:-6px 0 14px;padding:5px 10px;border-radius:999px;background:rgba(244,159,9,.16);color:#8a5600;font-size:12px;font-weight:800}
+.tag-save{border-color:var(--laranja);color:#8a5600;background:rgba(244,159,9,.12)}
+.price-save{margin:-6px 0 18px;color:var(--texto)}.price-save strong{color:#8a5600}
+.product-gallery.is-cover .product-gallery-stage{background:linear-gradient(160deg,var(--creme),var(--azul-fundo))}
+.product-gallery.is-cover .product-gallery-stage img{inset:7% 0;height:86%;object-fit:contain;filter:drop-shadow(0 16px 22px rgba(29,61,71,.22))}
+.product-gallery.is-composed .product-gallery-stage>*{position:absolute;inset:0}
+.category-soon .soon-card{max-width:720px;margin:0 auto;text-align:center;padding:48px 40px;border-radius:28px;background:#fff;border:2px solid rgba(244,159,9,.38);box-shadow:var(--shadow)}
+.category-soon .soon-icon{width:76px;height:76px;margin:0 auto 18px;border-radius:50%;background:var(--creme);border:5px solid #fff;box-shadow:0 0 0 2px rgba(7,143,178,.18);color:var(--azul);display:grid;place-items:center}
+.category-soon .soon-icon svg{width:34px;height:34px}
+.category-soon .soon-card p{max-width:520px;margin:0 auto 22px;color:var(--suave)}
+.category-soon .actions{justify-content:center}
+@media(max-width:560px){.category-soon .soon-card{padding:34px 20px}.store-grid .save-badge{font-size:10px}}
+.product-gallery-stage .cover-stack img{position:static;opacity:1;transform:none;transition:none}
+.cover-stack.n2 .cover-stack-item{width:50%}
+.cover-stack.n4 .cover-stack-item,.cover-stack.n5 .cover-stack-item{width:40%;margin-left:-24%}
+.cover-stack.n4 .cover-stack-item:first-child,.cover-stack.n5 .cover-stack-item:first-child{margin-left:0}
