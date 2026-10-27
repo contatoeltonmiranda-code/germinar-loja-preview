@@ -109,3 +109,5 @@ body[data-page="cursos"] .section-head>p{margin-left:auto;margin-right:auto;text
 .cover-stack.n2 .cover-stack-item{width:50%}
 .cover-stack.n4 .cover-stack-item,.cover-stack.n5 .cover-stack-item{width:40%;margin-left:-24%}
 .cover-stack.n4 .cover-stack-item:first-child,.cover-stack.n5 .cover-stack-item:first-child{margin-left:0}
+/* R49 (mobile <=767px): espacamento vertical compacto e proporcional. Desktop/tablet intactos. */
+@media(max-width:767px){.section{padding:44px 0}.wave-section{padding-top:80px;padding-bottom:80px}.manifesto-section{padding:44px 0}.editorial-wrap{margin-top:28px}.section>.editorial-wrap:first-child{margin-top:0}.footer-grid{padding-top:44px;gap:28px}.article:not(.article-paper)>h2{margin-top:34px}.article:not(.article-paper)>h2:first-child{margin-top:0}.public-timeline article{margin-bottom:24px}.public-timeline article:last-child{margin-bottom:0}.grid.store-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.store-grid .card{padding:0}}

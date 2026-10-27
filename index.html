@@ -1052,6 +1052,40 @@ footer a:hover{color:var(--amarelo)}
   .cat-seal::before{animation:none}
   .publico-serp-svg path{transition:none;stroke-dashoffset:0}
 }
+/* R49: o hero-inner zerava o padding lateral do .container (texto colado na borda ate 1180px). */
+@media (max-width:1180px){.hero-inner{padding-left:24px;padding-right:24px}}
+/* R49: no fallback em cartoes da roda (<=1100px) o card 04 herdava largura fixa de 300px e alinhamento a direita do
+   desktop: estourava a coluna (texto cortado no mobile) e desequilibrava a grade no tablet. */
+@media (max-width:1100px){
+  .roda-labels{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .rl{min-width:0}
+  .roda .rl.l .rl-copy{width:auto;text-align:left}
+  .roda .rl.l .rl-n{align-self:auto;margin-right:0}
+}
+/* R49 mobile (<=767px): arte no topo (hero-backgrounds.css), conteudo logo abaixo e espacamentos compactos. */
+@media (max-width:767px){
+  .hero-r25-home>.hero-inner{padding:22px 24px 64px}
+  .section{padding:44px 0}
+  .section.secao-categorias{padding-top:76px;padding-bottom:80px}
+  .section.recebe-aba{padding-top:76px}
+  .seasonal-section{padding-bottom:44px}
+  .secao-oferta{margin-top:30px}
+  .geo-secao.recebe-aba{padding-top:48px;padding-bottom:34px}
+  .section.secao-cta-final{padding-top:80px;padding-bottom:52px}
+  .publico-serp{margin:36px auto 16px}
+  .footer-grid{padding-top:44px;gap:28px}
+  .roda-labels{grid-template-columns:minmax(0,1fr)}
+  /* leque do CTA final: no mobile a grade de 2 colunas era o combinado (R11), mas as rotacoes por nth-child
+     continuavam ativas e a coluna direita saia da tela. */
+  .cta-gallery .cta-shot{transform:none}
+  /* banner Natal: texto em cima (creme) e a cena com a capa embaixo, sem sobrepor. --bw = largura do banner.
+     A cena mostra a faixa 40%-100% x 10%-90% da arte (2752x1536; a esquerda dela tem texto de rascunho); a capa segue a mesma escala e o centro vertical. */
+  .banner-sazonal{--bw:calc(100vw - 48px);background-size:calc(var(--bw) / .6) auto;background-position:calc(var(--bw) * -.667) calc(100% + var(--bw) * .093)}
+  .banner-sazonal .banner-media{min-height:calc(var(--bw) * .744)}
+  .banner-sazonal .banner-texto{padding-bottom:6px}
+  .banner-sazonal::after{background:linear-gradient(180deg,#fff8e0 0,#fff8e0 calc(100% - var(--bw) * .744 - 18px),rgba(255,248,224,0) calc(100% - var(--bw) * .744 + 26px)),linear-gradient(90deg,#fff8e0 0,#fff8e0 22%,rgba(255,248,224,0) 46%)}
+  .banner-sazonal .natal-cover-mockup{left:calc(var(--bw) * .14);right:auto;top:auto;bottom:calc(var(--bw) * .372);width:calc(var(--bw) * .38);transform:translateY(50%) perspective(900px) rotateY(-12deg) rotateZ(-1deg)}
+}
 </style>
 </head>
 <body>
