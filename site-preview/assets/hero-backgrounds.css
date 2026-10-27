@@ -41,7 +41,7 @@
 .hero.hero-background.hero-r24:not(.product-hero)>.container{padding-top:22px;transform:none}
 .hero.hero-background .hero-empty{display:none}
 .hero-r26-home .lead,.hero-r25-home .sub{width:auto;max-width:none}
-.hero-r25-home,.hero-r26-home{--r49-hero-bg:#ffe58b}
+.hero-r25-home,.hero-r26-home{--r49-hero-bg:#ffe58b;--r49-art-ratio:1.68/1}
 .hero-r27-blog-educacao-financeira-desde-a-infancia{--r49-hero-bg:#e2f6fc;--r49-art-pos:77%}
 .hero-r27-blog-educacao-financeira-em-sala-de-aula{--r49-hero-bg:#dbeef4;--r49-art-cut:5.4%}
 .hero-r29-blog{--r49-hero-bg:#f8ebd5}
